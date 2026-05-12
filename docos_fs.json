@@ -1,0 +1,51 @@
+{
+  "/": {
+    "type": "dir",
+    "children": [
+      "home",
+      "bin",
+      "doc",
+      "readme.txt"
+    ]
+  },
+  "/home": {
+    "type": "dir",
+    "children": [
+      "user"
+    ]
+  },
+  "/home/user": {
+    "type": "dir",
+    "children": [
+      "welcome.txt"
+    ]
+  },
+  "/bin": {
+    "type": "dir",
+    "children": [
+      "ls",
+      "echo",
+      "clear",
+      "date",
+      "whoami"
+    ]
+  },
+  "/doc": {
+    "type": "dir",
+    "children": [
+      "about.txt"
+    ]
+  },
+  "/readme.txt": {
+    "type": "file",
+    "content": "Welcome to DocOS v1.2!\nType 'help' to see commands."
+  },
+  "/home/user/welcome.txt": {
+    "type": "file",
+    "content": "Hello! Your files are saved across boots."
+  },
+  "/doc/about.txt": {
+    "type": "file",
+    "content": "DocOS v1.2\nMade by Grok for you bro"
+  }
+}

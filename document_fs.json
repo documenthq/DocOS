@@ -1,0 +1,50 @@
+{
+  "/": {
+    "type": "dir",
+    "children": [
+      "home",
+      "bin",
+      "documents",
+      "readme.txt",
+      "test"
+    ]
+  },
+  "/home": {
+    "type": "dir",
+    "children": [
+      "user"
+    ]
+  },
+  "/home/user": {
+    "type": "dir",
+    "children": [
+      "welcome.txt"
+    ]
+  },
+  "/bin": {
+    "type": "dir",
+    "children": []
+  },
+  "/documents": {
+    "type": "dir",
+    "children": [
+      "about.txt"
+    ]
+  },
+  "/readme.txt": {
+    "type": "file",
+    "content": "Welcome to Document OS 1.0"
+  },
+  "/home/user/welcome.txt": {
+    "type": "file",
+    "content": "All your work is saved permanently."
+  },
+  "/documents/about.txt": {
+    "type": "file",
+    "content": "Document OS 1.0\nOfficial Operating System of Document Company"
+  },
+  "/test": {
+    "type": "file",
+    "content": ""
+  }
+}
