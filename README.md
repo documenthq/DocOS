@@ -34,8 +34,13 @@ Document OS is a custom operating system simulator built as the official system 
 
 ```powershell
 cd C:\Users\YourUsername\DocOS
+```
 (Replace YourUsername with your actual Windows username)
 
 Once you're in the correct folder, run this command to start Document OS:
-
-PowerShell.\boot.ps1
+```powershell
+.\boot.ps1
+```
+GitHub: github.com/documenthq/DocOS
+Made as a personal project and official OS for Document company.
+🚀
