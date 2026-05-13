@@ -24,11 +24,18 @@ Document OS is a custom operating system simulator built as the official system 
 - Calculator (`calc`)
 - Simple Text Editor (`edit`)
 
-## How to Run
+## How to Run (Important)
 
-1. Make sure **Python 3** is installed
-2. Download the project
-3. Run the boot script:
+1. Make sure **Python 3** is installed on your computer.
+
+2. Open **PowerShell** as normal user.
+
+3. Navigate to your project folder by running this command:
 
 ```powershell
-.\boot.ps1
+cd C:\Users\YourUsername\DocOS
+(Replace YourUsername with your actual Windows username)
+
+Once you're in the correct folder, run this command to start Document OS:
+
+PowerShell.\boot.ps1
